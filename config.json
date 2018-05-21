@@ -1,0 +1,23 @@
+{
+  "user": "你的手机号",
+  "password": "你的密码",
+  "receiver": "619434176@qq.com",
+  "sender": "上面是我的邮箱，有兴趣可以联系我",
+  "sender_pwd": "这是我的发送者邮箱，不能给你看哦",
+  "app_id": "这个百度key可以多申请几个哦",
+  "api_key": "8Kfi2hoCKe4ZqWtD70HDY2uB",
+  "secret_key": "XSqY3T4G8gGmxSjFIkxTGHGtyR3RjdtE",
+  "black_list": [
+    "直聘小秘书", "直聘助手"
+  ],
+  "retry": 3,
+  "delay": 1,
+  "auto_resume": true,
+  "login_url": "https://login.zhipin.com/?ka=header-login",
+  "host": "https://www.zhipin.com",
+  "login_json": "https://login.zhipin.com/login/account.json",
+  "msg_page": "https://www.zhipin.com/geek/new/userList.json?page=1",
+  "job_json": "https://www.zhipin.com/geek/new/boss.json",
+  "his_msg": "https://www.zhipin.com/geek/new/historyMsg.json",
+  "resume_url": "https://www.zhipin.com/geek/new/requestSendResume.json"
+}

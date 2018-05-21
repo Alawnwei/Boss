@@ -1,0 +1,5 @@
+yagmail
+requests
+baidu-aip
+beautifulsoup4
+html5lib
