@@ -56,7 +56,7 @@ class Boss(object):
         job_info = self.get_job_info(bossId)
         his_msg = self.get_latest_msg(job_info["encryptBossId"])
         info = "公司: {}\n沟通人姓名: {}\n沟通人职位:{}\n薪资范围: {}\n聊天记录:\n{}\n职位名称: {}\n" \
-               "Base: {}\n学历要求: {}\n经验要求: {}\n职位描述: {}\n职位要求: {}\n".format(
+               "Base: {}\n学历要求: {}\n经验要求: {}\n职位信息: {}\n".format(
             job_info["company"], newest["name"], newest["title"], job_info["rate"],
             his_msg, job_info["pos"], job_info["loc"], job_info["degree"],
             job_info["exp"], job_info["posDesc"]
